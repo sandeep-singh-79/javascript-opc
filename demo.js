@@ -1,6 +1,12 @@
 'use strict'; 
 (function() {
 
-  display('Hello World');
+  // object literals
+  let person = {
+    firstName: "Sandeep",
+    lastName: "Singh"
+  }
+
+  display(person.firstName)
 
 })();
